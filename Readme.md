@@ -4,11 +4,13 @@ This project implements a text-based developer assistant using a Mixture of Expe
 
 ## Project Structure
 
-- `network.py`: Contains functions to create neural network models for text processing and the gating network.
-- `agent.py`: Defines the PrimeAgent and SecondaryAgent classes.
-- `train.py`: Implements the training and evaluation pipeline.
-- `interface.py`: Sets up the Gradio interface for the chat window and code display.
-- `requirements.txt`: Lists the dependencies required for the project.
+- **`agent.py`**: Defines the PrimeAgent and SecondaryAgent classes.
+- **`app.py`**: Main entry point for running the Gradio interface.
+- **`network.py`**: Contains functions to create neural network models for text processing and the gating network.
+- **`requirements.txt`**: Lists the dependencies required for the project.
+- **`train.py`**: Implements the training and evaluation pipeline.
+- **`interface.py`**: Sets up the Gradio interface for the chat window and code display.
+- **`README.md`**: Project documentation and setup instructions.
 
 ## Setup Instructions
 
@@ -31,14 +33,9 @@ Follow these steps to set up the project on your local machine:
     pip install -r requirements.txt
     ```
 
-4. **Run the training script**:
+4. **Run the application**:
     ```sh
-    python train.py
-    ```
-
-5. **Launch the Gradio interface**:
-    ```sh
-    python interface.py
+    python app.py
     ```
 
 ## Usage
@@ -78,15 +75,4 @@ We welcome contributions to the AgenticDeveloper project! Here are some guidelin
 
 Here are some potential future improvements and features for the AgenticDeveloper:
 
-- **Expand to Multimodal Inputs**: Add support for image and audio inputs to provide more comprehensive assistance.
-- **Improve NLP Capabilities**: Enhance the natural language processing capabilities of the assistant.
-- **Add More Specialized Agents**: Introduce more secondary agents with specialized skills.
-- **Optimize Performance**: Improve the performance and efficiency of the model.
-
-## References
-
-- [Hugging Face Datasets](https://huggingface.co/datasets)
-- [Gradio Documentation](https://gradio.app/docs/)
-- [TensorFlow Documentation](https://www.tensorflow.org/)
-
-Thank you for using and contributing to the AgenticDeveloper project! We hope this documentation provides you with all the information you need to get started and contribute to the project.
+- **Expand to Multimodal Inputs**: Add support for image and audio inputs to provide
