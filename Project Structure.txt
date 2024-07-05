@@ -1,0 +1,9 @@
+AgenticDeveloper/
+│
+├── agent.py
+├── app.py
+├── network.py
+├── requirements.txt
+├── train.py
+├── interface.py
+└── README.md
